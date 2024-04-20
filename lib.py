@@ -2,7 +2,7 @@ import random
 
 import numpy as np
 
-``
+
 def generate_zero_determinant_matrix(i):
     random.seed(i)
     matrix_elements = [random.randint(1, 10) for _ in range(16)]
